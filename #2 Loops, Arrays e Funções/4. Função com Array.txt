@@ -1,0 +1,10 @@
+ let pessoas = [
+    {Nome: "Hugo Huxley", Idade: 21},
+    {Nome: "Valdineia Cruz", Idade: 7},
+    {Nome: "Trombo Maior", Idade: 42},
+    {Nome: "Ferreiro Bulios", Idade: 37}
+];
+
+pessoas.forEach(function(pessoa){
+    document.write("Nome: " + pessoa.Nome + " " + "Idade: " + pessoa.Idade + " ----- ");
+}); 

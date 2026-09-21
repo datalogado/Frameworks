@@ -1,0 +1,7 @@
+let cores = ["azul", "verde", "vermelho", "cinza", "rosa", "laranja", "anil"];
+cores[4] = "ciano"; 
+cores.push("roxo");
+cores.unshift("verde");
+cores.pop();
+
+document.write(cores);
