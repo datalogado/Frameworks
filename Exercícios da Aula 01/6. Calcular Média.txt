@@ -1,9 +1,0 @@
-function calculaMedia(nota1, nota2, nota3){
-    if(((nota1 + nota2 + nota3) / 3) >= 7){
-        return "O aluno está aprovado";
-    } else{
-        return "O aluno está reprovado";
-    }
-};
-
-document.write(calculaMedia(6, 9, 7));
